@@ -9,7 +9,7 @@
 // License: MIT
 // Version: 0.1
 // FAUST version: 2.78.4
-// FAUST compilation options: -a /home/chris/tmp/tmphyy6v8y2.cpp -lang cpp -ct 1 -es 1 -mcd 16 -mdd 1024 -mdy 33 -single -ftz 0
+// FAUST compilation options: -a /home/chris/tmp/tmpg6x8zvac.cpp -lang cpp -ct 1 -es 1 -mcd 16 -mdd 1024 -mdy 33 -single -ftz 0
 //------------------------------------------------------------------------------
 
 
@@ -272,7 +272,7 @@ class mydsp : public dsp {
         m->declare("basics.lib/bypass1:author", "Julius Smith");
         m->declare("basics.lib/name", "Faust Basic Element Library");
         m->declare("basics.lib/version", "1.21.0");
-        m->declare("compile_options", "-a /home/chris/tmp/tmphyy6v8y2.cpp -lang cpp -ct 1 -es 1 -mcd 16 -mdd 1024 -mdy 33 -single -ftz 0");
+        m->declare("compile_options", "-a /home/chris/tmp/tmpg6x8zvac.cpp -lang cpp -ct 1 -es 1 -mcd 16 -mdd 1024 -mdy 33 -single -ftz 0");
         m->declare("compressors.lib/FBcompressor_N_chan:author", "Bart Brouns");
         m->declare("compressors.lib/FBcompressor_N_chan:license", "GPLv3");
         m->declare("compressors.lib/name", "Faust Compressor Effect Library");
@@ -281,7 +281,7 @@ class mydsp : public dsp {
         m->declare("compressors.lib/peak_compression_gain_mono_db:author", "Bart Brouns");
         m->declare("compressors.lib/peak_compression_gain_mono_db:license", "GPLv3");
         m->declare("compressors.lib/version", "1.6.0");
-        m->declare("description", "Let's rock, man!.");
+        m->declare("description", "Let's rock, man!");
         m->declare("filename", "waxman.dsp");
         m->declare("filters.lib/filterbank:author", "Julius O. Smith III");
         m->declare("filters.lib/filterbank:copyright", "Copyright (C) 2003-2019 by Julius O. Smith III <jos@ccrma.stanford.edu>");

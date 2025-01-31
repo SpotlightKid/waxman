@@ -9,7 +9,7 @@
 // License: MIT
 // Version: 0.1
 // FAUST version: 2.78.4
-// FAUST compilation options: -a /home/chris/tmp/tmpnl5occno.cpp -lang cpp -ct 1 -es 1 -mcd 16 -mdd 1024 -mdy 33 -single -ftz 0
+// FAUST compilation options: -a /home/chris/tmp/tmpkic346gf.cpp -lang cpp -ct 1 -es 1 -mcd 16 -mdd 1024 -mdy 33 -single -ftz 0
 //------------------------------------------------------------------------------
 
 

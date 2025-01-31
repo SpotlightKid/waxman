@@ -2,7 +2,7 @@ declare name "Waxman";
 declare version "0.1";
 declare author "Christopher Arndt";
 declare license "MIT";
-declare description "Let's rock, man!.";
+declare description "Let's rock, man!";
 
 import("stdfaust.lib");
 
