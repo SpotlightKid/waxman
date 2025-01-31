@@ -53,8 +53,8 @@
 // See http://lv2plug.in/ns/lv2core#ref-classes
 #define DISTRHO_PLUGIN_LV2_CATEGORY "lv2:AmplifierPlugin"
 // See: https://github.com/DISTRHO/DPF/blob/f5815166356e85a5fe244f6024c2e401f04b10fa/distrho/DistrhoInfo.hpp#L740
-#define DISTRHO_PLUGIN_VST3_CATEGORIES "Fx|Tools|Stereo"
+#define DISTRHO_PLUGIN_VST3_CATEGORIES "Fx|Distortion|Dynamics|EQ|Mono"
 // See: https://github.com/DISTRHO/DPF/blob/f5815166356e85a5fe244f6024c2e401f04b10fa/distrho/DistrhoInfo.hpp#L784
-#define DISTRHO_PLUGIN_CLAP_FEATURES "audio-effect", "utility", "stereo"
+#define DISTRHO_PLUGIN_CLAP_FEATURES "audio-effect", "equalizer", "distortion", "compressor", "mono"
 
 #endif // DISTRHO_PLUGIN_INFO_H
