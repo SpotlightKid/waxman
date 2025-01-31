@@ -135,8 +135,29 @@ const Preset factoryPresets[] = {
     //    {0.0, ...}     // array of Waxman::NumParameters float param values
     //},
     {
-        "Default",
-        {-6.0f,}
+        "DIST 1",
+        {
+            70.0,   // p_strength,
+            -20.0,   // p_threshold,
+            2.0,    // p_attack,
+            80.0,   // p_release,
+            60.0,   // p_gain,
+            5.0,    // p_curve,
+            -24.0,  // p_dist_output,
+            -5.0,   // p_f_0,
+            -4.0,   // p_f_1,
+            -2.0,   // p_f_2,
+            8.0,    // p_f_3,
+            6.0,    // p_f_4,
+            0.0,    // p_f_5,
+            -2.0,   // p_f_6,
+            -9.00,  // p_f_7,
+            0.9,    // p_q,
+            -3.0,   //p_eq_output,
+            0.0,    // p_bypass_compressor,
+            0.0,    // p_bypass_distortion,
+            0.0     //p_bypass_eq,
+        }
     }
 };
 
