@@ -177,7 +177,7 @@ void PluginWaxman::activate() {
 
 void PluginWaxman::run(const float** inputs, float** outputs,
                        uint32_t frames) {
-    dsp->process(inputs[0], outputs[0], outputs[1], (unsigned)frames);
+    dsp->process(inputs[0], outputs[0], (unsigned)frames);
 }
 
 // -----------------------------------------------------------------------
