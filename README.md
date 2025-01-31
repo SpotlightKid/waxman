@@ -9,7 +9,7 @@ Let's rock, man!
 
 This plugin is available in the following plug-in formats by default:
 
-* [CLAP] (`chrisarndt.de.waxman`)
+* [CLAP] (`de.chrisarndt.waxman`)
 * [LV2] (`https://chrisarndt.de/plugins/waxman`)
 * [VST3][vst] (`waxman.vst3`)
 
