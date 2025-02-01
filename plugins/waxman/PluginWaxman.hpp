@@ -137,32 +137,34 @@ const Preset factoryPresets[] = {
     {
         "Dist 1",
         {
-            70.0,   // p_strength,
-            -20.0,   // p_threshold,
-            2.0,    // p_attack,
-            80.0,   // p_release,
-            60.0,   // p_gain,
-            5.0,    // p_curve,
-            -24.0,  // p_dist_output,
-            -5.0,   // p_f_0,
-            -4.0,   // p_f_1,
-            -2.0,   // p_f_2,
-            8.0,    // p_f_3,
-            6.0,    // p_f_4,
-            0.0,    // p_f_5,
-            -2.0,   // p_f_6,
-            -9.00,  // p_f_7,
-            0.9,    // p_q,
-            -3.0,   //p_eq_output,
-            0.0,    // p_bypass_compressor,
-            0.0,    // p_bypass_distortion,
-            0.0     //p_bypass_eq,
+            70.0,   // p_strength
+            -20.0,  // p_threshold
+            2.0,    // p_attack
+            80.0,   // p_release
+            60.0,   // p_gain
+            5.0,    // p_curve
+            -24.0,  // p_dist_output
+            -5.0,   // p_f_0
+            -4.0,   // p_f_1
+            -2.0,   // p_f_2
+            8.0,    // p_f_3
+            6.0,    // p_f_4
+            0.0,    // p_f_5
+            -2.0,   // p_f_6
+            -9.00,  // p_f_7
+            0.9,    // p_q
+            -3.0,   // p_eq_output
+            0.0,    // p_bypass_compressor
+            0.0,    // p_bypass_distortion
+            0.0     // p_bypass_eq
         }
     },
     {"Clean 3", {70.0, -30.0, 10.0, 80.0, 1.0, 0.5, 3.0, -6.0, -5.0, -3.0,
                  -1.2, 0.0, 2.5, 6.0, 9.00, 0.975, 3.0, 0.0, 0.0, 0.0}},
     {"Fuzzy Hair", {50.0, -25.0, 20.0, 80.0, 20.0, 1.5, -18.0, -6.0, -5.0, 1.0,
-                    0.0, 6.0, 0.0, -4.0, -7.0, 0.9, 1.0, 0.0, 0.0, 0.0}}
+                    0.0, 6.0, 0.0, -4.0, -7.0, 0.9, 1.0, 0.0, 0.0, 0.0}},
+    {"Sweet Lead", {70.0, -30.0, 2.0, 80.0, 60.0, 7.5, -24.0, -2.7, -2.15, 6.0,
+                    4.0, 9.12, 3.12, -3.6, -6.5, 0.5, -6.0, 0.0, 0.0, 0.0}}
 };
 
 const uint presetCount = sizeof(factoryPresets) / sizeof(Preset);
