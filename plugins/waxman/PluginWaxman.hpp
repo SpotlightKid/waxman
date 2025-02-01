@@ -158,7 +158,9 @@ const Preset factoryPresets[] = {
             0.0,    // p_bypass_distortion,
             0.0     //p_bypass_eq,
         }
-    }
+    },
+    {"CLEAN 3", {70.0, -30.0, 10.0, 80.0, 1.0, 0.5, 3.0, -6.0, -5.0, -3.0,
+                 -1.2, 0.0, 2.5, 6.0, 9.00, 0.975, 3.0, 0.0, 0.0, 0.0}}
 };
 
 const uint presetCount = sizeof(factoryPresets) / sizeof(Preset);
