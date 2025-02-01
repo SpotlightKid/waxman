@@ -135,7 +135,7 @@ const Preset factoryPresets[] = {
     //    {0.0, ...}     // array of Waxman::NumParameters float param values
     //},
     {
-        "DIST 1",
+        "Dist 1",
         {
             70.0,   // p_strength,
             -20.0,   // p_threshold,
@@ -159,8 +159,10 @@ const Preset factoryPresets[] = {
             0.0     //p_bypass_eq,
         }
     },
-    {"CLEAN 3", {70.0, -30.0, 10.0, 80.0, 1.0, 0.5, 3.0, -6.0, -5.0, -3.0,
-                 -1.2, 0.0, 2.5, 6.0, 9.00, 0.975, 3.0, 0.0, 0.0, 0.0}}
+    {"Clean 3", {70.0, -30.0, 10.0, 80.0, 1.0, 0.5, 3.0, -6.0, -5.0, -3.0,
+                 -1.2, 0.0, 2.5, 6.0, 9.00, 0.975, 3.0, 0.0, 0.0, 0.0}},
+    {"Fuzzy Hair", {50.0, -25.0, 20.0, 80.0, 20.0, 1.5, -18.0, -6.0, -5.0, 1.0,
+                    0.0, 6.0, 0.0, -4.0, -7.0, 0.9, 1.0, 0.0, 0.0, 0.0}}
 };
 
 const uint presetCount = sizeof(factoryPresets) / sizeof(Preset);
