@@ -8,8 +8,8 @@
 // Copyright: 
 // License: MIT
 // Version: 0.1
-// FAUST version: 2.78.4
-// FAUST compilation options: -a /home/chris/tmp/tmpkic346gf.cpp -lang cpp -ct 1 -es 1 -mcd 16 -mdd 1024 -mdy 33 -single -ftz 0
+// FAUST version: 2.78.6
+// FAUST compilation options: -a /home/chris/tmp/tmpp0xjkbym.cpp -lang cpp -ct 1 -es 1 -mcd 16 -mdd 1024 -mdy 33 -single -ftz 0
 //------------------------------------------------------------------------------
 
 
@@ -35,31 +35,32 @@ public:
 
     enum { NumInputs = 1 };
     enum { NumOutputs = 1 };
-    enum { NumActives = 20 };
+    enum { NumActives = 21 };
     enum { NumPassives = 0 };
-    enum { NumParameters = 20 };
+    enum { NumParameters = 21 };
 
     enum Parameter {
-        p_strength,
-        p_threshold,
-        p_attack,
-        p_release,
-        p_gain,
-        p_curve,
+        p_gate_threshold,
+        p_comp_bypass,
+        p_comp_strength,
+        p_comp_threshold,
+        p_comp_attack,
+        p_comp_release,
+        p_dist_bypass,
+        p_dist_gain,
+        p_dist_curve,
         p_dist_output,
-        p_f_0,
-        p_f_1,
-        p_f_2,
-        p_f_3,
-        p_f_4,
-        p_f_5,
-        p_f_6,
-        p_f_7,
-        p_q,
+        p_eq_bypass,
+        p_eq_band_1,
+        p_eq_band_2,
+        p_eq_band_3,
+        p_eq_band_4,
+        p_eq_band_5,
+        p_eq_band_6,
+        p_eq_band_7,
+        p_eq_band_8,
+        p_eq_q,
         p_eq_output,
-        p_bypass_compressor,
-        p_bypass_distortion,
-        p_bypass_eq,
     };
 
     struct ParameterRange {
@@ -95,46 +96,48 @@ public:
     float get_parameter(unsigned index) const noexcept;
     void set_parameter(unsigned index, float value) noexcept;
 
-    float get_strength() const noexcept;
-    float get_threshold() const noexcept;
-    float get_attack() const noexcept;
-    float get_release() const noexcept;
-    float get_gain() const noexcept;
-    float get_curve() const noexcept;
+    float get_gate_threshold() const noexcept;
+    float get_comp_bypass() const noexcept;
+    float get_comp_strength() const noexcept;
+    float get_comp_threshold() const noexcept;
+    float get_comp_attack() const noexcept;
+    float get_comp_release() const noexcept;
+    float get_dist_bypass() const noexcept;
+    float get_dist_gain() const noexcept;
+    float get_dist_curve() const noexcept;
     float get_dist_output() const noexcept;
-    float get_f_0() const noexcept;
-    float get_f_1() const noexcept;
-    float get_f_2() const noexcept;
-    float get_f_3() const noexcept;
-    float get_f_4() const noexcept;
-    float get_f_5() const noexcept;
-    float get_f_6() const noexcept;
-    float get_f_7() const noexcept;
-    float get_q() const noexcept;
+    float get_eq_bypass() const noexcept;
+    float get_eq_band_1() const noexcept;
+    float get_eq_band_2() const noexcept;
+    float get_eq_band_3() const noexcept;
+    float get_eq_band_4() const noexcept;
+    float get_eq_band_5() const noexcept;
+    float get_eq_band_6() const noexcept;
+    float get_eq_band_7() const noexcept;
+    float get_eq_band_8() const noexcept;
+    float get_eq_q() const noexcept;
     float get_eq_output() const noexcept;
-    float get_bypass_compressor() const noexcept;
-    float get_bypass_distortion() const noexcept;
-    float get_bypass_eq() const noexcept;
-    void set_strength(float value) noexcept;
-    void set_threshold(float value) noexcept;
-    void set_attack(float value) noexcept;
-    void set_release(float value) noexcept;
-    void set_gain(float value) noexcept;
-    void set_curve(float value) noexcept;
+    void set_gate_threshold(float value) noexcept;
+    void set_comp_bypass(float value) noexcept;
+    void set_comp_strength(float value) noexcept;
+    void set_comp_threshold(float value) noexcept;
+    void set_comp_attack(float value) noexcept;
+    void set_comp_release(float value) noexcept;
+    void set_dist_bypass(float value) noexcept;
+    void set_dist_gain(float value) noexcept;
+    void set_dist_curve(float value) noexcept;
     void set_dist_output(float value) noexcept;
-    void set_f_0(float value) noexcept;
-    void set_f_1(float value) noexcept;
-    void set_f_2(float value) noexcept;
-    void set_f_3(float value) noexcept;
-    void set_f_4(float value) noexcept;
-    void set_f_5(float value) noexcept;
-    void set_f_6(float value) noexcept;
-    void set_f_7(float value) noexcept;
-    void set_q(float value) noexcept;
+    void set_eq_bypass(float value) noexcept;
+    void set_eq_band_1(float value) noexcept;
+    void set_eq_band_2(float value) noexcept;
+    void set_eq_band_3(float value) noexcept;
+    void set_eq_band_4(float value) noexcept;
+    void set_eq_band_5(float value) noexcept;
+    void set_eq_band_6(float value) noexcept;
+    void set_eq_band_7(float value) noexcept;
+    void set_eq_band_8(float value) noexcept;
+    void set_eq_q(float value) noexcept;
     void set_eq_output(float value) noexcept;
-    void set_bypass_compressor(float value) noexcept;
-    void set_bypass_distortion(float value) noexcept;
-    void set_bypass_eq(float value) noexcept;
 
 public:
     class BasicDsp;
