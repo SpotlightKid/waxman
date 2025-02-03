@@ -2,6 +2,19 @@
 
 Let's rock, man!
 
+## Audio Demos
+
+* [Dist 1 preset](./audio/waxman-dist-1.ogg) (Ogg Vorbis, Yamaha Revstar 520, P90 Bridge, +[Chorus] +[Delay])
+* [Clean 3 preset](./audio/waxman-clean-3.ogg) (Ogg Vorbis, Yamaha Revstar 520, P90 Bridge + Neck, +[Chorus] +[Delay])
+* [Fuzzy Hairy preset](./audio/waxman-fuzzy.ogg) (Ogg Vorbis, Yamaha Revstar 520, P90 Neck, +[Chorus] +[Delay])
+* [Sweed Lead preset](./audio/waxman-sweet-lead.ogg) (Ogg Vorbis, Yamaha Revstar 520, P90 Neck, +[Chorus] +[Delay])
+
+[Chorus]: https://chrisarndt.de/plugins/cchorus
+[Delay]: https://chrisarndt.de/plugins/stereo-cross-delay
+
+
+## Screenshot
+
 <p align="center"><img title="Generic LV2 UI in Carla" src="screenshot-carla.png" width="541"></center>
 
 
