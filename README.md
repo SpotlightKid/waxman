@@ -4,14 +4,18 @@ Let's rock, man!
 
 ## Audio Demos
 
-* [Dist 1 preset](./audio/waxman-dist-1.ogg) (Ogg Vorbis, Yamaha Revstar 520, P90 Bridge, +[Chorus] +[Delay])
-* [Clean 3 preset](./audio/waxman-clean-3.ogg) (Ogg Vorbis, Yamaha Revstar 520, P90 Bridge + Neck, +[Chorus] +[Delay])
-* [Fuzzy Hairy preset](./audio/waxman-fuzzy.ogg) (Ogg Vorbis, Yamaha Revstar 520, P90 Neck, +[Chorus] +[Delay])
-* [Sweed Lead preset](./audio/waxman-sweet-lead.ogg) (Ogg Vorbis, Yamaha Revstar 520, P90 Neck, +[Chorus] +[Delay])
+* [Dist 1 preset](./audio/waxman-dist-1.ogg) (Ogg Vorbis, Yamaha Revstar 520, P90 Bridge)
+* [Clean 3 preset](./audio/waxman-clean-3.ogg) (Ogg Vorbis, Yamaha Revstar 520, P90 Bridge + Neck)
+* [Fuzzy Hairy preset](./audio/waxman-fuzzy.ogg) (Ogg Vorbis, Yamaha Revstar 520, P90 Neck)
+* [Sweed Lead preset](./audio/waxman-sweet-lead.ogg) (Ogg Vorbis, Yamaha Revstar 520, P90 Neck)
+
+**Note:** all audio demos use additional [Chorus], [Delay] and [Reverb]
+plugins. Here are the [custom LV2 presets](./audio/chous-delay-lv2-presets.zip)
+used with these plugins (other presets used are built-in factory presets).
 
 [Chorus]: https://chrisarndt.de/plugins/cchorus
 [Delay]: https://chrisarndt.de/plugins/stereo-cross-delay
-
+[Reverb]: https://chrisarndt.de/plugins/dfzitarev1
 
 ## Screenshot
 
