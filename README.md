@@ -10,7 +10,7 @@ Let's rock, man!
 * [Sweed Lead preset](./audio/waxman-sweet-lead.ogg) (Ogg Vorbis, Yamaha Revstar 520, P90 Neck)
 
 **Note:** all audio demos use additional [Chorus], [Delay] and [Reverb]
-plugins. Here are the [custom LV2 presets](./audio/chous-delay-lv2-presets.zip)
+plugins. Here are the [custom LV2 presets](./audio/chorus-delay-lv2-presets.zip)
 used with these plugins (other presets used are built-in factory presets).
 
 [Chorus]: https://chrisarndt.de/plugins/cchorus
