@@ -28,7 +28,7 @@ can better fit in a mix. In fact, the Rockman is famous for its compressed,
 mid-boosted tones, that may sound strange on their own but can punch through
 a busy mix or lend themselves to layering.
 
-**Note:** This software is still in *Beta Status* and some fine-tuning of it
+**Note:** This software is still in *Beta Status* and some fine-tuning of its
 tone-shaping blocks may still occur. Until the first stable release comes out,
 no guarantee is made that plugin presets stay compatible with the next version.
 So, for now, I suggest you take screenshots of your favourite settings!
