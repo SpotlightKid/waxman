@@ -2,12 +2,66 @@
 
 Let's rock, man!
 
+## Description
+
+Waxman is a virtual **guitar pre-amp** and tone-stack comprising of a
+**compressor**, **distortion** and **equalizer** stage. It is a multi-format,
+cross-platform audio effect plugin, which can be loaded in to any DAW, which
+supports one of the plugin formats listed below.
+
+The plugin was created to emulate the kind of sounds you can get from a **Tom
+Scholz Rockman**, which were a series of well-known headphone practice amps
+from the 80s. These were also one of the first guitar amp simulators and were
+used on countless hit records in that decade and in the nineties. The plugin
+does not simulate the exact circuit of a Rockman but mimics the general chain
+of tone-shaping components the original had.
+
+It does not include the chorus and echo the original had, since these effects
+can be easily added with other plugins (see the audio examples below) but it
+adds a noise gate with adjustable threshold after the input, since that is often
+useful for distortion sounds.
+
+The plugin can be used to create sparkly clean sounds, crunchy overdrive tones
+and mild to medium-heavy distortion. Think 80s pop/hairmetal rather modern
+hi-gain mayhem. The eight-band EQ allows to shape the sound drastically, so it
+can better fit in a mix. In fact, the Rockman is famous for its compressed,
+mid-boosted tones, that may sound strange on their own but can punch through
+a busy mix or lend themselves to layering.
+
+**Note:** This software is still in *Beta Status* and some fine-tuning of it
+tone-shaping blocks may still occur. Until the first stable release comes out,
+no guarantee is made that plugin presets stay compatible with the next version.
+So, for now, I suggest you take screenshots of your favourite settings!
+
+
+### What does the name "Waxman" stand for?
+
+I don't usually like explaining puns, but since this name can have many
+interpretations, I feel that in this case I should:
+
+The name is, of course, a play on "Rockman", which itself was a play on
+"Walkman" (it came with headphones and looked similar to a portable cassette
+player).
+
+* "Hard as a rock" (hardware) vs "Soft as wax" (software)
+* Wax can be molded and the plugin has many parameters to shape the sound,
+  where as Rockman has very few settings, i.e. the sound is set in stone
+  (rock).
+* You can use wax to make an imprint of things to create an imperfect copy.
+  Waxman can make imperfect copies of the kind of sounds you can get out of a
+  Rockman.
+* Using Waxman you can *wax lyrically* on your guitar.
+* It sounds similar to "Axeman" (i.e. something to use with your "axe" =
+  "guitar"), but that name could conjure up unpleasant associations with horror
+  films etc.
+
+
 ## Audio Demos
 
 * [Dist 1 preset](./audio/waxman-dist-1.ogg) (Ogg Vorbis, Yamaha Revstar 520, P90 Bridge)
 * [Clean 3 preset](./audio/waxman-clean-3.ogg) (Ogg Vorbis, Yamaha Revstar 520, P90 Bridge + Neck)
 * [Fuzzy Hairy preset](./audio/waxman-fuzzy.ogg) (Ogg Vorbis, Yamaha Revstar 520, P90 Neck)
-* [Sweed Lead preset](./audio/waxman-sweet-lead.ogg) (Ogg Vorbis, Yamaha Revstar 520, P90 Neck)
+* [Sweet Lead preset](./audio/waxman-sweet-lead.ogg) (Ogg Vorbis, Yamaha Revstar 520, P90 Neck)
 
 **Note:** all audio demos use additional [Chorus], [Delay] and [Reverb]
 plugins. Here are the [custom LV2 presets](./audio/chorus-delay-lv2-presets.zip)
@@ -17,9 +71,11 @@ used with these plugins (other presets used are built-in factory presets).
 [Delay]: https://chrisarndt.de/plugins/stereo-cross-delay
 [Reverb]: https://chrisarndt.de/plugins/dfzitarev1
 
+
 ## Screenshot
 
-<p align="center"><img title="Generic LV2 UI in Carla" src="screenshot-carla.png" width="541"></center>
+<p align="center"><img title="Generic LV2 UI in Carla"
+  src="screenshot-carla.png" width="541"></center>
 
 
 ## Formats
@@ -62,12 +118,12 @@ plugin formats.
 ## Installation
 
 To install all plugin formats to their appropriate system-wide location, run
-the following command (root priviledges may be required):
+the following command (root privileges may be required):
 
     make install
 
 The makefiles support the usual `PREFIX` and `DESTDIR` variables to change the
-installation prefix and set an installation root directory (defaulty: empty).
+installation prefix and set an installation root directory (default: empty).
 `PREFIX` defaults to `/usr/local`, but on macOS and Windows it is not used,
 since the system-wide installation directories for plugins are fixed.
 
